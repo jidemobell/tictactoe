@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(152, 112, 252);
+}
+
+#gamecontainer {
+    margin: 50px auto;
+    background-color: rgb(152, 112, 252);
+    width: 450px;
+    height: 450px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+#gamebody {
+    width: 300px;
+    height: 250px;
+    margin: 20% auto;
+    background-color: rgb(245, 254, 255);
+    -webkit-box-shadow: -1px -4px 7px -2px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: -1px -4px 7px -2px rgba(0, 0, 0, 0.62);
+    box-shadow: -1px -4px 7px -2px rgba(0, 0, 0, 0.62)
+}
+
+#gamebody .introduce1 {
+    color: rgb(201, 31, 93);
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Pacifico', cursive;
+}
+
+#gamebody .introduce1 span {
+    color: green;
+    text-align: center;
+}
+
+#gamebody .introduce1 span #optionx,
+#gamebody .introduce1 span #optiony {
+    color: red;
+    text-align: center;
+}
+
+#buttonsdiv {
+    /*margin-left: 65px;*/
+    margin-left: 160px;
+    margin-top: -60px;
+}
+
+#board tr td {
+    width: 98px;
+    height: 83px;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+
+#board tr td:hover {
+    background: #e4e4e4;
+    cursor: pointer;
+}
+
+span #optionx,
+#optiony:hover {
+    cursor: pointer;
+}
+
+#gameover {
+    border: 1px solid rgb(205, 49, 49);
+    background: rgb(205, 49, 49);
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+    width: 30%;
+    font-family: 'Amatic SC', cursive;
+    position: absolute;
+    z-index: 50;
+}
+
+#winner {
+    border: 1px solid rgb(205, 49, 49);
+    background: rgb(205, 49, 49);
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 40%;
+    font-family: 'Amatic SC', cursive;
+    margin-left: 30%;
+    margin-bottom: -10%;
+    margin-top: 2%;
+    /* position: absolute; */
+}
+
+#optionx,
+#optiony {
+    color: pink;
+}
+
+i {
+    color: coral;
+}
+
+i:hover {
+    cursor: pointer;
+}
